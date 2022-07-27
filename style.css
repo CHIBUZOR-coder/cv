@@ -4,25 +4,22 @@ body {
 
 h1 {
     color: #6d038d;
-}
+    }
 
 h3 {
     color: #e6c8cd;
-}
+     }
 
 .pro {
-    width: 80px;
-
-
-}
+    width: 100px;
+     }
 
 .star {
     font-size: 0.5em;
-
-}
+       }
 
 .input{display: block;
-}
+       }
 
 .input:hover{background-color:green;}
        
