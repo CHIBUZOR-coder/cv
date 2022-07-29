@@ -57,6 +57,44 @@ input {
     display: inline-block;
 }
 
+@media screen and (max-width:300px) {
+
+
+
+
+    body {
+        width: 80%;
+        text-align: center;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .top-container {
