@@ -31,10 +31,21 @@ body {
     margin-top: 10px;
 }
 
+#web {
+    color: #2b0b35;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 38%;
+}
+
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    top: 300px;
+    left: 25%;
+    bottom: 40%;
 }
 
 .con {
@@ -46,11 +57,7 @@ input {
     display: inline-block;
 }
 
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
+
 
 .top-container {
     color: black;
