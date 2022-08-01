@@ -7,10 +7,10 @@
 }
 
 .aimg {
-    width: 200px;
-    height: 100px;
     position: relative;
     margin-top: 10px;
+    width: 200px;
+    height: 100px;
 }
 
 body {
@@ -20,8 +20,8 @@ body {
 }
 
 .bimg {
-    width: 200px;
-    height: 200px;
+    width: 15%;
+    height: 15%;
     position: relative;
     margin-top: 10px;
 }
@@ -55,6 +55,10 @@ input {
 input:hover {
     background-color: #6d038d;
     ;
+}
+
+.mountain {
+    width: 60%;
 }
 
 .star {
@@ -107,6 +111,12 @@ h2 {
         position: relative;
     }
 
+
+    .bimg {
+        width: 20%;
+        height: 20%
+    }
+
     .con {
         background-color: #6d038d;
         color: rgb(223, 67, 67);
@@ -119,24 +129,24 @@ h2 {
 
 
 
-}
 
-#6d038d input:hover {
-    background-color: red;
-}
 
-.inline {
-    display: inline;
+    #6d038d input:hover {
+        background-color: red;
+    }
 
-}
+    .inline {
+        display: inline;
 
-.mountain {
-    padding-right: 28%;
-    width: 100%;
-    position: relative;
-}
+    }
 
-/*
+    .mountain {
+        padding-right: 28%;
+        width: 100%;
+        position: relative;
+    }
+
+    /*
 
     .web {
         position: absolute;
@@ -145,17 +155,17 @@ h2 {
 
     }*/
 
-.top-cloud {
-    position: absolute;
-    right: 5%;
-    top: 35%;
-}
+    .top-cloud {
+        position: absolute;
+        right: 5%;
+        top: 35%;
+    }
 
-.bottom-cloud {
-    position: absolute;
-    left: 10%;
-    bottom: 40%;
-}
+    .bottom-cloud {
+        position: absolute;
+        left: 10%;
+        bottom: 40%;
+    }
 
 
 }
