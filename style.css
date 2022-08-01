@@ -100,14 +100,11 @@ h2 {
     body {
         position: relative;
         width: 100%;
-        left: 5%;
+        left: 2%;
 
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         position: relative;
-        margin-left: -1%;
-        margin-right: auto;
-
     }
 
     .con {
