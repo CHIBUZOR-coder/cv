@@ -98,11 +98,12 @@ h2 {
 @media screen and (max-width:600px) {
 
     body {
-        width: 800%;
+
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         position: relative;
-        margin-left: 10%;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
@@ -129,7 +130,7 @@ h2 {
 
     }
 
-    .mountain {
+    /* .mountain {
         padding-right: 28%;
     }
 
@@ -151,6 +152,6 @@ h2 {
         left: 25%;
         bottom: 40%;
     }
-
+ */
 
 }
