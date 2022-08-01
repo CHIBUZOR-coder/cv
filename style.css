@@ -83,10 +83,8 @@ table {
 }
 
 .ul {
-    /* margin-left: auto;
-    margin-right: auto; */
     text-align: left;
-    margin-left: 20px;
+
 }
 
 h1 {
@@ -137,7 +135,7 @@ h2 {
     }
 
     .inline {
-        display: inline;
+        display: block;
 
     }
 
