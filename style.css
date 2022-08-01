@@ -102,7 +102,7 @@ h2 {
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         position: relative;
-        margin-left: auto;
+        margin-left: 10%;
         margin-right: auto;
 
     }
@@ -112,25 +112,25 @@ h2 {
         color: rgb(223, 67, 67);
     }
 
-    .center {
+    /* .center {
         margin-left: 55%;
-        position: absolute;
+        position: absolute; */
 
 
 
 
-    }
+}
 
-    #6d038d input:hover {
-        background-color: red;
-    }
+#6d038d input:hover {
+    background-color: red;
+}
 
-    .inline {
-        display: inline;
+.inline {
+    display: inline;
 
-    }
+}
 
-    /* .mountain {
+/* .mountain {
         padding-right: 28%;
     }
 
