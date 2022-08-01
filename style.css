@@ -95,7 +95,7 @@ h2 {
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
 
     body {
         position: absolute;
@@ -103,7 +103,7 @@ h2 {
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         position: relative;
-        margin-left: 10%;
+        margin-left: 3%;
         margin-right: auto;
 
     }
