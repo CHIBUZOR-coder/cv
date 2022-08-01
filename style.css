@@ -103,7 +103,7 @@ h2 {
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         position: relative;
-        margin-left: 0%;
+        margin-left: -1%;
         margin-right: auto;
 
     }
@@ -131,9 +131,11 @@ h2 {
 
 }
 
-/* .mountain {
-        padding-right: 28%;
-    }
+.mountain {
+    padding-right: 28%;
+}
+
+/*
 
     .web {
         position: absolute;
