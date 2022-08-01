@@ -1,20 +1,9 @@
+/* style selectors are arranged alphabetically */
+
 * {
     margin: 0px;
     padding: 0px;
 
-}
-
-body {
-    background-color: rgb(223, 67, 67);
-    text-align: center;
-}
-
-
-.ul {
-    /* margin-left: auto;
-    margin-right: auto; */
-    text-align: left;
-    margin-left: 20px;
 }
 
 .aimg {
@@ -24,22 +13,17 @@ body {
     margin-top: 10px;
 }
 
+body {
+    background-color: rgb(223, 67, 67);
+    text-align: center;
+    color: #6d038d;
+}
+
 .bimg {
     width: 200px;
     height: 200px;
     position: relative;
     margin-top: 10px;
-}
-
-#web {
-    color: #2b0b35;
-
-}
-
-.top-cloud {
-    position: absolute;
-    right: 30%;
-    top: 38%;
 }
 
 .bottom-cloud {
@@ -48,61 +32,33 @@ body {
     bottom: 40%;
 }
 
+
 .con {
     text-align: left;
     margin-left: 20px;
+
 }
+
+.form {
+    padding-top: 30px;
+}
+
 
 input {
-    display: inline-block;
+    display: block;
 }
 
-/* 
-@media screen and (max-width:300px) {
-
-
-
-
-    body {
-        width: 80%;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
+.inline {
+    display: inline;
 }
 
+input:hover {
+    background-color: #6d038d;
+    ;
+}
 
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.top-container {
-    color: black;
-    position: relative;
-    padding-top: 50px;
+.star {
+    font-size: 0.5em;
 }
 
 table {
@@ -110,18 +66,28 @@ table {
     margin-right: auto;
 }
 
+.top-container {
+    color: black;
+    position: relative;
+    padding-top: 50px;
+}
 
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 38%;
+}
 
-
-
+.ul {
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: left;
+    margin-left: 20px;
+}
 
 h1 {
     color: #6d038d;
 }
-
-
-
-
 
 h3,
 h2 {
@@ -129,13 +95,62 @@ h2 {
 }
 
 
+@media screen and (max-width:600px) {
 
-.star {
-    font-size: 0.5em;
-}
+    body {
+        width: 80%;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        margin-left: 20%;
+
+    }
+
+    .con {
+        background-color: #6d038d;
+        color: rgb(223, 67, 67);
+    }
+
+    .center {
+        margin-left: 55%;
+        position: absolute;
 
 
 
-.input:hover {
-    background-color: green;
+
+    }
+
+    #6d038d input:hover {
+        background-color: red;
+    }
+
+    .inline {
+        display: inline;
+
+    }
+
+    .mountain {
+        padding-right: 28%;
+    }
+
+    .web {
+        position: absolute;
+        left: 80%;
+        top: 2%;
+
+    }
+
+    .top-cloud {
+        position: absolute;
+        right: -60%;
+        top: 30%;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        left: 25%;
+        bottom: 40%;
+    }
+
+
 }
