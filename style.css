@@ -8,15 +8,27 @@
 
 .aimg {
     position: relative;
-    margin-top: 10px;
     width: 200px;
     height: 100px;
+    float: left;
+    margin-right: 0.5em;
 }
+
+.cimg {
+    position: relative;
+
+    width: 200px;
+    height: 100px;
+    float: left;
+    padding-right: 0.5em;
+}
+
+
 
 body {
     background-color: rgb(223, 67, 67);
     text-align: center;
-    color: rgb(5, 24, 10);
+    color: #40514E;
 }
 
 .bimg {
@@ -39,8 +51,22 @@ body {
 
 }
 
+.codin {
+    text-align: center;
+}
+
+
+
 .form {
     padding-top: 30px;
+
+}
+
+.foot {
+    background-color: grey;
+    position: absolute;
+    height: 10%;
+    width: 100%;
 }
 
 
@@ -61,8 +87,17 @@ input:hover {
     width: 60%;
 }
 
+
+
 .star {
     font-size: 0.5em;
+}
+
+.skills {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 5%;
 }
 
 table {
@@ -94,6 +129,10 @@ h1 {
 h3,
 h2 {
     color: #e6c8cd;
+}
+
+h2 {
+    padding-bottom: 3%;
 }
 
 
