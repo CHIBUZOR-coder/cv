@@ -160,6 +160,13 @@ h2 {
         color: rgb(223, 67, 67);
     }
 
+    .foot {
+        background-color: grey;
+        position: absolute;
+        height: 3%;
+        width: 100%;
+    }
+
     /* .center {
         margin-left: 55%;
         position: absolute; */
