@@ -65,7 +65,7 @@ body {
 .foot {
     background-color: grey;
     position: absolute;
-    height: 6%;
+    height: 5%;
     width: 100%;
 }
 
@@ -135,6 +135,7 @@ h2 {
     padding-bottom: 3%;
 }
 
+/* 
 
 @media screen and (max-width:800px) {
 
@@ -160,57 +161,46 @@ h2 {
         color: rgb(223, 67, 67);
     }
 
-    .foot {
-        background-color: grey;
-        position: absolute;
-        height: 3%;
-        width: 100rem;
-    }
-
-    /* .center {
-        margin-left: 55%;
-        position: absolute; */
+   
 
 
 
 
 
 
-    #6d038d input:hover {
-        background-color: red;
-    }
+#6d038d input:hover {
+    background-color: red;
+}
 
-    .inline {
-        display: block;
+.inline {
+    display: block;
 
-    }
+}
 
-    .mountain {
-        padding-right: 28%;
-        width: 100%;
-        position: relative;
-    }
+.mountain {
+    padding-right: 28%;
+    width: 100%;
+    position: relative;
+}
 
-    /*
+.work {
+    width: 100rem
+}
 
-    .web {
-        position: absolute;
-        left: 80%;
-        top: 2%;
 
-    }*/
+.top-cloud {
+    position: absolute;
+    right: 5%;
+    top: 35%;
+}
 
-    .top-cloud {
-        position: absolute;
-        right: 5%;
-        top: 35%;
-    }
-
-    .bottom-cloud {
-        position: absolute;
-        left: 10%;
-        bottom: 40%;
-    }
+.bottom-cloud {
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+}
 
 
 }
+
+*/
