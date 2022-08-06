@@ -148,11 +148,29 @@ h2 {
         position: relative;
     }
 
+    /*               
+.aimg {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.cimg {
+    position: relative;
+
+    width: 200px;
+    height: 100px;
+    float: left;
+    padding-right: 0.5em;
+}  */
 
     .bimg {
         width: 20%;
-        height: 20%
+        height: 20%;
     }
+
 
     .con {
         background-color: #6d038d;
@@ -192,6 +210,11 @@ h2 {
         position: absolute;
         left: 10%;
         bottom: 40%;
+    }
+
+    .skills {
+        position: relative;
+        width: 100%;
     }
 
 
