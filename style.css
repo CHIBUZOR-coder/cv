@@ -143,7 +143,8 @@ h2 {
 
         color: rgb(5, 24, 10);
         width: 90%;
-        margin-left: 10%;
+        /* margin-left: auto; */
+        margin-left: 100%;
 
 
         text-align: center;
@@ -178,6 +179,15 @@ h2 {
     .con {
         background-color: #6d038d;
         color: rgb(223, 67, 67);
+    }
+
+
+    .foot {
+        background-color: grey;
+        position: absolute;
+        height: 5%;
+        width: 300%;
+        margin-left: 0%;
     }
 
 
