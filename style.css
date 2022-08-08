@@ -144,9 +144,8 @@ h2 {
         color: rgb(5, 24, 10);
         max-width: 100%;
         overflow-x: hidden;
-        margin-left: 2%;
-        /* margin-left: 100%; */
-
+        margin-left: 0;
+        margin-right: 0;
 
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
