@@ -44,6 +44,19 @@ body {
     bottom: 40%;
 }
 
+button {
+    border: solid 1px;
+    border-radius: 18%;
+    background-color: grey;
+    color: #e6c8cd;
+    position: relative;
+    width: 10%;
+    height: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
 
 .con {
     text-align: left;
@@ -81,6 +94,10 @@ input {
 input:hover {
     background-color: #6d038d;
     ;
+}
+
+.media {
+    position: relative;
 }
 
 .mountain {
