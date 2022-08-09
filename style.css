@@ -28,7 +28,7 @@
 body {
     background-color: rgb(223, 67, 67);
     text-align: center;
-    color: #40514E;
+    color: #163832;
 }
 
 .bimg {
@@ -169,6 +169,16 @@ table {
 .ul {
     text-align: left;
 
+}
+
+hr {
+    /* border: dotted white;
+    border-radius: 10%;
+    border-bottom: none;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px; */
 }
 
 h1 {
