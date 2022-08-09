@@ -80,7 +80,11 @@ body {
 
 .bnn {
     position: relative;
-    margin-top: 10%;
+    margin-top: 2%;
+}
+
+.button {
+    margin-top: 10px;
 }
 
 .con {
@@ -98,14 +102,15 @@ body {
 
 
 .form {
-    padding-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
 
 }
 
 .foot {
     background-color: grey;
     position: absolute;
-    height: 5%;
+    height: 6%;
     width: 100%;
 }
 
@@ -114,7 +119,7 @@ input {
     display: block;
 }
 
-.inline {
+input .inline {
     display: inline;
 }
 
