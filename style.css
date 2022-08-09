@@ -100,12 +100,12 @@ body {
 }
 
 
-/* 
-.form {
+ 
+.form {display:block;
     margin-bottom: 20px;
     padding-top: 10px;
 
-} */
+} 
 
 .foot {
     background-color: grey;
