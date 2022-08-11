@@ -6,6 +6,16 @@
 
 }
 
+a {
+    color: rgb(82, 77, 77);
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #46d1db;
+}
+
 .aimg {
     position: relative;
     width: 200px;
@@ -84,7 +94,7 @@ body {
 }
 
 .button {
-    margin-top: 10px;
+    margin: 20px 0;
 }
 
 .con {
@@ -100,7 +110,7 @@ body {
 }
 
 
-<<<<<<< HEAD
+
 
 .form {
     display: block;
@@ -108,20 +118,35 @@ body {
     padding-top: 10px;
 
 }
-=======
- 
-.form {display:block;
+
+
+.form {
+    display: block;
     margin-bottom: 20px;
     padding-top: 10px;
 
-} 
->>>>>>> 0ec01727e442e48aedb10ab7c2588eb97849083d
+}
+
 
 .foot {
     background-color: grey;
-    position: absolute;
-    height: 6%;
+
+    height: 10%;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.footer {
+    margin-bottom: 10px;
+
+}
+
+.foota {
+    padding: 5px 0;
+    color: #e6c8cd;
+    font-size: small;
 }
 
 
