@@ -300,6 +300,14 @@ h2 {
 
     }
 
+    .home {
+        color: #46d1db;
+    }
+
+    .home:hover {
+        color: cornsilk;
+    }
+
 
 
 
