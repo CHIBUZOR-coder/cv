@@ -250,18 +250,6 @@ table {
         position: relative;
     } */
 
-    .top-container {
-        /* position: relative; */
-        width: 100%;
-        overflow-x: hidden;
-    }
-
-    .skill-ratting {
-        position: relative;
-        width: 100%;
-    }
-
-
     /*               
 .aimg {
     position: relative;
@@ -279,6 +267,11 @@ table {
     float: left;
     padding-right: 0.5em;
 }  */
+    .bottom-cloud {
+        position: absolute;
+        left: 10%;
+        bottom: 40%;
+    }
 
     .bimg {
         width: 20%;
@@ -308,13 +301,6 @@ table {
         color: cornsilk;
     }
 
-
-
-
-
-
-
-
     #6d038d input:hover {
         background-color: red;
     }
@@ -330,6 +316,16 @@ table {
         position: relative;
     }
 
+    .skill-ratting {
+        position: relative;
+        width: 100%;
+    }
+
+    .skills {
+        position: relative;
+        width: 100%;
+    }
+
 
     .top-cloud {
         position: absolute;
@@ -337,16 +333,12 @@ table {
         top: 35%;
     }
 
-    .bottom-cloud {
-        position: absolute;
-        left: 10%;
-        bottom: 40%;
+    .top-container {
+        /* position: relative; */
+        width: 100%;
+        overflow-x: hidden;
     }
 
-    .skills {
-        position: relative;
-        width: 100%;
-    }
 
 
 }
