@@ -250,6 +250,13 @@ table {
 
 }
 
+.work-experience {
+    position: relative;
+    text-align: center;
+
+}
+
+
 
 
 @media screen and (max-width:500px) {
