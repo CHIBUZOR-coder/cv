@@ -6,14 +6,20 @@
 
 }
 
-a {
-    color: rgb(82, 77, 77);
-    padding: 0 10px;
-    text-decoration: none;
+.anchor {
+    position: relative;
+    top: 3px;
 }
 
-a:hover {
-    color: #46d1db;
+.tag {
+    color: #50437a;
+    position: relative;
+    margin: 0 15px;
+}
+
+.tag:hover {
+    color: darkgray;
+
 }
 
 .aimg {
